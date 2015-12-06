@@ -3,7 +3,6 @@
    "background": {
       "scripts": [ "js/vendor/llqrcode.js", "js/vendor/qrcode.min.js", "background.js" ]
    },
-   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
    "default_locale": "en",
    "description": "__MSG_description__",
    "homepage_url": "http://path/to/homepage",
@@ -13,7 +12,6 @@
       "32": "icon/32.png",
       "48": "icon/48.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlS8iRo1+RUOCw5mVarEaEmIaxT3xKCiaEFJoXOqbcx1OBWU+xY0dczgPS5+XvSYETcCyhtutFZn3DX3gHyVdA63yt2sdnpqaUkiOsioO6tGMD0u6pdex3ShmYpLxxXzm+nPR6y1lIhLKb/gXfwZmyQjOqz+RltR5EnfubHHARQDIDwqVvnjhDdBf2QW/761+3MyM6m8P8X67VsBl+4FvRSW5IFEmlo5YT2CYoEcLzVa5SrEj6jhfQFUFfYMsN8YS52fBfp9BhbaC3pXemLjzoEnQPg2SAGV4nrGSobuxuEvDHeHwkdEIZmqtI7EctqxDgi8ZgVqk+qXIWgzktGOXhQIDAQAB",
    "manifest_version": 2,
    "minimum_chrome_version": "35",
    "name": "__MSG_name__",
@@ -32,6 +30,5 @@
       "default_title": "__MSG_generate__"
    },
    "permissions": [ "activeTab", "contextMenus", "http://*/*", "https://*/*" ],
-   "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "1.1.5"
 }

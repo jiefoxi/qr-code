@@ -29,7 +29,8 @@ if (location.search == "") {
 	// pageAction's popup
 	document.body.style.width = document.body.style.height = Math.min(584, options.size * 1.25) + "px";
 	chrome.tabs.query({
-		active: true
+		active: true,
+		currentWindow: true
 	}, function(tabs) {
 		_makeCode(tabs[0].url);
 	});

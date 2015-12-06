@@ -43,11 +43,9 @@ var App = {
         var types = "selectionText|linkUrl|srcUrl|frameUrl|pageUrl".split("|").filter(function(type) {
             return type in info;
         });
-        _gaq.push(["_trackEvent", "contextMenu", "generate", types[0]]);
     },
     scan: function(info, tab) {
         qrcode.decode(info.srcUrl);
-        _gaq.push(["_trackEvent", "contextMenu", "scan"]);
     },
     popup: function(data) {
         if (!this.test(data)) {
@@ -106,19 +104,3 @@ chrome.contextMenus.create({
 chrome.tabs.onUpdated.addListener(function(tabId) {
     chrome.pageAction.show(tabId);
 });
-
-var _gaq = _gaq || [];
-_gaq.push(["_setAccount", "UA-37085142-5"]);
-_gaq.push(["_trackPageview"]);
-_gaq.push(["_setCustomVar", 1, "ecl", options.ecl, 2]);
-_gaq.push(["_setCustomVar", 2, "size", options.size, 2]);
-_gaq.push(["_setCustomVar", 3, "ask", options.ask, 2]);
-
-(function() {
-    var ga = document.createElement("script");
-    ga.type = "text/javascript";
-    ga.async = true;
-    ga.src = "https://ssl.google-analytics.com/ga.js";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(ga, s);
-})();
