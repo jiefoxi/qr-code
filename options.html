@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>QR Code</title>
+</head>
+<body>
+	<form>
+		<section>
+			<h3 data-i18n="general"></h3>
+			<p>
+				<label><input type="checkbox" name="autoclose"> <span data-i18n="autoclose"></span></label>
+			</p>
+		</section>
+
+		<section>
+			<h3 data-i18n="generate"></h3>
+			<p>
+				<label for="ecl" data-i18n="ecl"></label>
+				<select id="ecl" name="ecl">
+					<option value="H">H (30%)</option>
+					<option value="Q">Q (25%)</option>
+					<option value="M" selected>M (15%)</option>
+					<option value="L">L (7%)</option>
+				</select>
+			</p>
+			<p>
+				<label for="size" data-i18n="size"></label>
+				<select id="size" name="size">
+					<option>100</option>
+					<option>200</option>
+					<option selected>300</option>
+					<option>400</option>
+					<option>500</option>
+				</select>
+			</p>
+		<section>
+
+		<section>
+			<h3 data-i18n="scan"></h3>
+			<p>
+				<label><input type="checkbox" name="ask"> <span data-i18n="ask"></span></label>
+			</p>
+		</section>
+
+		<p style="text-align: right">
+			<button id="save" type="submit" data-i18n="save"></button>
+		</p>
+	</form>
+
+	<script src="js/options.js"></script>
+</body>
+</html>

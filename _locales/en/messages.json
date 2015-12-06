@@ -1,0 +1,47 @@
+{
+   "ask": {
+      "message": "Ask before opening website"
+   },
+   "autoclose": {
+      "message": "Close window when losing focus"
+   },
+   "description": {
+      "message": "Generate QR Code from the url of current page, text or selected text. And scan QR code in image."
+   },
+   "ecl": {
+      "message": "Error correction level: "
+   },
+   "edit": {
+      "message": "Edit QR Code:"
+   },
+   "error": {
+      "message": "Unable to generate QR Code, may be input data exceeds the limit."
+   },
+   "general": {
+      "message": "General"
+   },
+   "generate": {
+      "message": "Generate QR Code"
+   },
+   "name": {
+      "message": "QR Code"
+   },
+   "open": {
+      "message": "Open Website?"
+   },
+   "options": {
+      "message": "Options"
+   },
+   "result": {
+      "message": "Result:"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "scan": {
+      "message": "Scan QR Code"
+   },
+   "size": {
+      "message": "Image size: "
+   }
+}

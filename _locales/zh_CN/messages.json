@@ -1,0 +1,47 @@
+{
+   "ask": {
+      "message": "打开网址前询问"
+   },
+   "autoclose": {
+      "message": "窗口失去焦点后自动关闭"
+   },
+   "description": {
+      "message": "将当前页面地址、选中的文本或链接等生成二维码，也可以识别网页中的二维码图片。"
+   },
+   "ecl": {
+      "message": "纠错级别："
+   },
+   "edit": {
+      "message": "编辑二维码："
+   },
+   "error": {
+      "message": "无法生成二维码，可能是内容长度超过了限制。"
+   },
+   "general": {
+      "message": "常规"
+   },
+   "generate": {
+      "message": "生成二维码"
+   },
+   "name": {
+      "message": "二维码"
+   },
+   "open": {
+      "message": "打开网站？"
+   },
+   "options": {
+      "message": "选项"
+   },
+   "result": {
+      "message": "识别结果："
+   },
+   "save": {
+      "message": "保存"
+   },
+   "scan": {
+      "message": "识别二维码"
+   },
+   "size": {
+      "message": "图片尺寸："
+   }
+}
